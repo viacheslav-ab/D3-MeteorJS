@@ -1,0 +1,28 @@
+<template name="chart">
+  <div class="area" id="scatterArea">
+    <div class="box_chat" style="padding-right: 64px">
+      <svg class="left_dotchart"></svg>
+    </div>
+    <div class="box">
+        <svg class="right_dotchart"></svg>
+      </div>
+  </div>
+
+  <div class="area hidden_css" id="histogramArea">
+    <div class="box_chat" style="padding-right: 64px">
+        <svg class="left_barchart"></svg>
+    </div>
+    <div class="box">
+        <svg class="right_barchart"></svg>
+    </div>
+  </div>
+
+  <div class="area" id="switchbuttons">
+    <div id="darstellungalsHist">
+      <a href="#">Darstellung als Histogramm</a>
+    </div>
+    <div id="darstellungalsPunk" class="hidden_css">
+      <a href="#">Darstellung als Punktdiagramm</a>
+    </div>
+  </div>
+</template>
